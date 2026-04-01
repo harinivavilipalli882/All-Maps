@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mapper VERSION="1.0" xmlns="http://www.stercomm.com/SI/Map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<MapDetails>
+<VersionControl><SerializationVersion>33056</SerializationVersion><MajorVersion>0</MajorVersion><MinorVersion>0</MinorVersion></VersionControl>
+<Summary><Author>generated</Author><Description>MAP_009_ALL_SEG_M_FIELDS_C</Description><Notes>All segments mandatory but all fields conditional</Notes><MapFunction>24</MapFunction></Summary>
+<EDIAssociations_IN><AgencyID>X</AgencyID><VersionID>004010</VersionID><BindingID>204</BindingID></EDIAssociations_IN>
+</MapDetails>
+<TemplateOption>2</TemplateOption>
+<INPUT>
+<Segment><ID>0</ID><Name>ISA</Name><Description>INTERCHANGE CONTROL HEADER</Description><Active>1</Active><ChildCount>16</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0I01</Name><Description>AUTHORIZATION INFORMATION QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I02</Name><Description>AUTHORIZATION INFORMATION</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I03</Name><Description>SECURITY INFORMATION QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I04</Name><Description>SECURITY INFORMATION</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I05</Name><Description>INTERCHANGE ID QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I06</Name><Description>INTERCHANGE SENDER ID</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I05:2</Name><Description>INTERCHANGE ID QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I07</Name><Description>INTERCHANGE RECEIVER ID</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I08</Name><Description>INTERCHANGE DATE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I09</Name><Description>INTERCHANGE TIME</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I65</Name><Description>REPETITION SEPARATOR</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I11</Name><Description>INTERCHANGE CONTROL VERSION NUMBER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I12</Name><Description>INTERCHANGE CONTROL NUMBER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I13</Name><Description>ACKNOWLEDGMENT REQUESTED</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I14</Name><Description>USAGE INDICATOR</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I15</Name><Description>COMPONENT ELEMENT SEPARATOR</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>GS</Name><Description>FUNCTIONAL GROUP HEADER</Description><Active>1</Active><ChildCount>8</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0479</Name><Description>FUNCTIONAL IDENTIFIER CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0142</Name><Description>APPLICATION SENDERS CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0124</Name><Description>APPLICATION RECEIVERS CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0373:9</Name><Description>DATE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0337:4</Name><Description>TIME</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0028</Name><Description>GROUP CONTROL NUMBER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0455</Name><Description>RESPONSIBLE AGENCY CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0480</Name><Description>VERSION RELEASE INDUSTRY IDENTIFIER CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>ST</Name><Description>TRANSACTION SET HEADER</Description><Active>1</Active><ChildCount>3</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0143</Name><Description>TRANSACTION SET IDENTIFIER CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0329</Name><Description>TRANSACTION SET CONTROL NUMBER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>1705</Name><Description>IMPLEMENTATION CONVENTION REFERENCE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>B2</Name><Description>BEGINNING SEGMENT FOR SHIPMENT INFORMATION TRANSACTION</Description><Active>1</Active><ChildCount>12</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0375</Name><Description>TARIFF SERVICE CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0140</Name><Description>STANDARD CARRIER ALPHA CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0154</Name><Description>STANDARD POINT LOCATION CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0145</Name><Description>SHIPMENT IDENTIFICATION NUMBER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0188</Name><Description>WEIGHT UNIT CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0146</Name><Description>SHIPMENT METHOD OF PAYMENT</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0147</Name><Description>SHIPMENT QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0086</Name><Description>TOTAL EQUIPMENT</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0460</Name><Description>SHIPMENT WEIGHT CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0501</Name><Description>CUSTOMS DOCUMENTATION HANDLING CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0335</Name><Description>TRANSPORTATION TERMS CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0591</Name><Description>PAYMENT METHOD CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>B2A</Name><Description>SET PURPOSE</Description><Active>1</Active><ChildCount>2</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0353</Name><Description>TRANSACTION SET PURPOSE CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0346</Name><Description>APPLICATION TYPE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>L11</Name><Description>BUSINESS INSTRUCTIONS AND REFERENCE NUMBER</Description><Active>1</Active><ChildCount>3</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0127</Name><Description>REFERENCE IDENTIFICATION</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0128</Name><Description>REFERENCE IDENTIFICATION QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0352</Name><Description>DESCRIPTION</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>G62</Name><Description>DATE TIME</Description><Active>1</Active><ChildCount>5</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0432</Name><Description>DATE QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0373</Name><Description>DATE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0176</Name><Description>TIME QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0337</Name><Description>TIME</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0623</Name><Description>TIME CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>PLD</Name><Description>PALLET INFORMATION</Description><Active>1</Active><ChildCount>4</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0406</Name><Description>QUANTITY OF PALLETS SHIPPED</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0399</Name><Description>PALLET EXCHANGE CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0188:2</Name><Description>WEIGHT UNIT CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0081</Name><Description>WEIGHT</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>S5</Name><Description>STOP OFF DETAILS</Description><Active>1</Active><ChildCount>8</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0165</Name><Description>STOP SEQUENCE NUMBER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0163</Name><Description>STOP REASON CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0081:3</Name><Description>WEIGHT</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0188:4</Name><Description>WEIGHT UNIT CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0382</Name><Description>NUMBER OF UNITS SHIPPED</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0355:6</Name><Description>UNIT OR BASIS FOR MEASUREMENT CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0183:2</Name><Description>VOLUME</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0184:2</Name><Description>VOLUME UNIT QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>AT8</Name><Description>SHIPMENT WEIGHT PACKAGING AND QUANTITY DATA</Description><Active>1</Active><ChildCount>7</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0187:2</Name><Description>WEIGHT QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0188:5</Name><Description>WEIGHT UNIT CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0081:4</Name><Description>WEIGHT</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0080</Name><Description>LADING QUANTITY</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0080:2</Name><Description>LADING QUANTITY</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0184:3</Name><Description>VOLUME UNIT QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0183:3</Name><Description>VOLUME</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>NTE</Name><Description>NOTE SPECIAL INSTRUCTION</Description><Active>1</Active><ChildCount>2</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0363</Name><Description>NOTE REFERENCE CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0352:2</Name><Description>DESCRIPTION</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>N1</Name><Description>NAME</Description><Active>1</Active><ChildCount>6</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0098</Name><Description>ENTITY IDENTIFIER CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0093:2</Name><Description>NAME</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0066</Name><Description>IDENTIFICATION CODE QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0067</Name><Description>IDENTIFICATION CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0706</Name><Description>ENTITY RELATIONSHIP CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0098:2</Name><Description>ENTITY IDENTIFIER CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>N3</Name><Description>ADDRESS INFORMATION</Description><Active>1</Active><ChildCount>2</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0166</Name><Description>ADDRESS INFORMATION</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0166:2</Name><Description>ADDRESS INFORMATION</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>N4</Name><Description>GEOGRAPHIC LOCATION</Description><Active>1</Active><ChildCount>6</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0019:2</Name><Description>CITY NAME</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0156:2</Name><Description>STATE OR PROVINCE CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0116</Name><Description>POSTAL CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0026</Name><Description>COUNTRY CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0309</Name><Description>LOCATION QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0310</Name><Description>LOCATION IDENTIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>G61</Name><Description>CONTACT</Description><Active>1</Active><ChildCount>5</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0366</Name><Description>CONTACT FUNCTION CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0093:5</Name><Description>NAME</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0365</Name><Description>COMMUNICATION NUMBER QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0364</Name><Description>COMMUNICATION NUMBER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0443</Name><Description>CONTACT INQUIRY REFERENCE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>L3</Name><Description>TOTAL WEIGHT AND CHARGES</Description><Active>1</Active><ChildCount>15</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0081:12</Name><Description>WEIGHT</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0187:6</Name><Description>WEIGHT QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0060</Name><Description>FREIGHT RATE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0122</Name><Description>RATE VALUE QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0058</Name><Description>CHARGE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0191</Name><Description>ADVANCES</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0117</Name><Description>PREPAID AMOUNT</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0150</Name><Description>SPECIAL CHARGE OR ALLOWANCE CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0183:8</Name><Description>VOLUME</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0184:8</Name><Description>VOLUME UNIT QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0080:11</Name><Description>LADING QUANTITY</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0188:15</Name><Description>WEIGHT UNIT CODE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0171</Name><Description>TARIFF NUMBER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0074</Name><Description>DECLARED VALUE</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0122:2</Name><Description>RATE VALUE QUALIFIER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>SE</Name><Description>TRANSACTION SET TRAILER</Description><Active>1</Active><ChildCount>2</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0096</Name><Description>NUMBER OF INCLUDED SEGMENTS</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0329:2</Name><Description>TRANSACTION SET CONTROL NUMBER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>GE</Name><Description>FUNCTIONAL GROUP TRAILER</Description><Active>1</Active><ChildCount>2</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0097</Name><Description>NUMBER OF TRANSACTION SETS INCLUDED</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0028:2</Name><Description>GROUP CONTROL NUMBER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+<Segment><ID>0</ID><Name>IEA</Name><Description>INTERCHANGE CONTROL TRAILER</Description><Active>1</Active><ChildCount>2</ChildCount><Note></Note><Min>1</Min><Max>1</Max><LoopCtl>normal</LoopCtl>
+<Field><ID>0</ID><Name>0I16</Name><Description>NUMBER OF INCLUDED FUNCTIONAL GROUPS</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+<Field><ID>0</ID><Name>0I12:2</Name><Description>INTERCHANGE CONTROL NUMBER</Description><Active>1</Active><ChildCount>0</ChildCount><Note></Note><Mandatory>no</Mandatory><NotUsed>no</NotUsed></Field>
+</Segment>
+</INPUT>
+</Mapper>
